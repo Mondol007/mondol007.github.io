@@ -395,3 +395,97 @@ html {
     }
 }
 
+/* Certification Section Styling */
+.certifications-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Certification Item */
+.certification-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.certification-item:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #e7dffe;
+}
+
+/* Certification Title */
+.certification-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Status (e.g., Date and Platform) */
+.status {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+/* Description Content */
+.certification-description ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Add Pointer Cursor for Hover */
+.certification-item {
+    cursor: pointer;
+}
+
+#honors {
+    padding: 30px 0;
+}
+
+.honor-item {
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    border-left: 3px solid #898888;
+    padding-left: 15px;
+}
+
+.honor-item p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+#extracurricular {
+    padding: 30px 0;
+}
+
+.extracurricular-item {
+    margin-bottom: 20px;
+    border-left: 3px solid #898888;
+    padding-left: 15px;
+}
+
+.extracurricular-item p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.extracurricular-item strong {
+    font-size: 1.em;
+    color: #333333;
+}
+
+.extracurricular-item em {
+    font-style: italic;
+    color: #555555;
+}
