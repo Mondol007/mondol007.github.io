@@ -323,9 +323,9 @@ section p {
 .profile-image {
     display: block;
     margin: 20px auto;
-    border-radius: 0%;
-    width: 200px;
-    height: 200px;
+    border-radius: 50%; /* Make the image circular */
+    width: 210px;
+    height: 210px;
     object-fit: cover;
 }
 
