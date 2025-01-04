@@ -395,6 +395,66 @@ html {
     }
 }
 
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+}
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+}
+
+/* Experience Section */
+#experience h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: left; /* Center the title */
+}
+
+.experience-item {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.experience-item h3 {
+    font-size: 20px;
+    color: #0056b3;
+}
+
+.experience-item .role {
+    font-style: italic;
+    color: #666;
+}
+
+.experience-item .dates {
+    font-weight: bold;
+    color: #333;
+}
+
+.experience-item .supervisor {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.experience-item .responsibilities {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #555;
+}
+
+
 /* Certification Section Styling */
 .certifications-container {
     display: grid;
@@ -489,3 +549,48 @@ html {
     font-style: italic;
     color: #555555;
 }
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    margin: 20px;
+}
+
+#contact h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Styling */
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
